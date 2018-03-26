@@ -2,27 +2,52 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.nav {
+  margin-bottom: 0;
+  background-color: #FFF;
+  color: #1ec7c7;
+  font-size: 35px;
+  padding: 10px;
+  letter-spacing: -1px;
+  border-bottom: 3px solid #22DDDE;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.logo {
+  display: inline-block;
+  margin-left: 2%;
+  float: left;
+  padding: 50px 0;
 }
 
-.App-title {
-  font-size: 1.5em;
+.library {
+    display: inline-block;
+    float: right;
 }
 
-.App-intro {
-  font-size: large;
+.libraryy {
+  margin-top: 2%;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#Title{
+  display: inline-block;
+  color: #22DDDE;
+}
+
+h2 {
+  color: #f4428c; 
+  text-align: center; 
+}
+
+#album-info {
+  margin-top: 2%;
+}
+
+#song-list {
+  display: inline-block;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.player-bar {
+  display: inline-block;
 }
